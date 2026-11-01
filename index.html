@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lobby Track preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#0F5F73}a:hover{color:#0A4352}
+.lt-switch{font-family:'Public Sans',system-ui,sans-serif;background:#F4F6F8;border-bottom:1px solid #D9DEE3;padding:12px 24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;font-size:14px;color:#4A5560}
+.lt-switch button{font:inherit;font-weight:600;padding:10px 14px;border-radius:6px;cursor:pointer;border:1px solid #0F5F73;background:#FFFFFF;color:#0F5F73}
+.lt-switch button[aria-pressed="true"]{background:#0F5F73;color:#FFFFFF}
+[data-page][hidden]{display:none}
+</style></head><body>
+<div class="lt-switch" role="group" aria-label="Sample employer">
+<span>Sample with real 2025–26 filings:</span>
+<button type="button" data-show="seiu" aria-pressed="true">SEIU California State Council</button>
+<button type="button" data-show="uber" aria-pressed="false">Uber Technologies</button></div>
+<div data-page="seiu">
+
+<div style="font-family: 'Public Sans', system-ui, sans-serif; color: #1B1F24; background: #FFFFFF; min-height: 100vh">
+
+  <header style="border-bottom: 1px solid #D9DEE3">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 24px">
+      <a href="#" style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 24px; color: #1B1F24; text-decoration: none">Lobby Track</a>
+      <nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 15px; font-weight: 500; flex-grow: 1">
+        <a href="#" style="text-decoration: none; color: #1B1F24; border-bottom: 2px solid #0F5F73">Employers</a>
+        <a href="#" style="text-decoration: none">Lobbying firms</a>
+        <a href="#" style="text-decoration: none">Lobbyists</a>
+        <a href="#" style="text-decoration: none">Legislators</a>
+        <a href="#" style="text-decoration: none">Bills</a>
+        <a href="#" style="text-decoration: none">Behested payments</a>
+      </nav>
+      <a href="#" style="border: 1px solid #C4CBD2; border-radius: 6px; padding: 10px 14px; text-decoration: none; color: #1B1F24; font-size: 14px">Account</a>
+    </div>
+  </header>
+
+  
+
+  <main style="max-width: 1200px; margin: 0 auto; padding: 32px 24px 64px; display: flex; flex-direction: column; gap: 40px">
+
+    <section style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px">
+      <div style="display: flex; flex-direction: column; gap: 8px">
+        <a href="#" style="font-size: 14px">← Employers</a>
+        <h1 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 38px">California State Council of Service Employees</h1>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px">
+          <span style="background: #E6F0F2; color: #0A4352; padding: 4px 10px; border-radius: 999px">Labor union</span>
+          <span style="background: #F4F6F8; color: #333B44; padding: 4px 10px; border-radius: 999px">Your donor group: SEIU</span>
+          <span style="background: #F4F6F8; color: #333B44; padding: 4px 10px; border-radius: 999px">SOS filer ID E00789</span>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <label for="session2" style="font-size: 14px; color: #4A5560">Session</label>
+        <select id="session2" style="font: inherit; padding: 10px 12px; border: 1px solid #9AA4AE; border-radius: 6px">
+          <option>2025–26</option>
+          <option>2023–24</option>
+        </select>
+        <button type="button" style="font: inherit; font-weight: 600; padding: 10px 16px; border: 1px solid #0F5F73; border-radius: 6px; background: #FFFFFF; color: #0F5F73; cursor: pointer">Download CSV</button>
+      </div>
+    </section>
+
+    <section aria-label="Totals" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+      
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 14px; color: #4A5560">Spent on lobbying</span>
+          <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">$6.14M</span>
+          <span style="font-size: 13px; color: #5B6470">2025–26 session, 6 quarters filed</span>
+        </div>
+      
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 14px; color: #4A5560">In-house lobbyists</span>
+          <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">8</span>
+          <span style="font-size: 13px; color: #5B6470">Plus 20 in earlier sessions</span>
+        </div>
+      
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 14px; color: #4A5560">Firms hired</span>
+          <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">4</span>
+          <span style="font-size: 13px; color: #5B6470">$570,515 paid to firms</span>
+        </div>
+      
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 14px; color: #4A5560">Behested payments</span>
+          <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">$26,000</span>
+          <span style="font-size: 13px; color: #5B6470">3 payments, 3 officials</span>
+        </div>
+      
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 14px">
+      <h2 style="margin: 0; font-size: 22px">Where the money went</h2>
+      <div role="img" aria-label="In-house lobbyists $1.98M, Lobbying firms $570,515, Gifts and activity $82,923, Other payments to influence $3.51M" style="display: flex; height: 28px; border-radius: 6px; overflow: hidden; background: #EEF1F3">
+        
+          <div style="width: 32.22%; background: #0F5F73"></div>
+        
+          <div style="width: 9.28%; background: #7FB3C2"></div>
+        
+          <div style="width: 1.35%; background: #C2700F"></div>
+        
+          <div style="width: 57.15%; background: #2E3A46"></div>
+        
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px">
+        
+          <div style="display: flex; gap: 10px; align-items: flex-start">
+            <span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 3px; margin-top: 4px; flex-shrink: 0; background: #0F5F73"></span>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 14px; color: #4A5560">In-house lobbyists</span>
+              <span style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums">$1.98M</span>
+              <span style="font-size: 13px; color: #5B6470">32% · Form 635 line A</span>
+            </div>
+          </div>
+        
+          <div style="display: flex; gap: 10px; align-items: flex-start">
+            <span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 3px; margin-top: 4px; flex-shrink: 0; background: #7FB3C2"></span>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 14px; color: #4A5560">Lobbying firms</span>
+              <span style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums">$570,515</span>
+              <span style="font-size: 13px; color: #5B6470">9% · Form 635 line B</span>
+            </div>
+          </div>
+        
+          <div style="display: flex; gap: 10px; align-items: flex-start">
+            <span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 3px; margin-top: 4px; flex-shrink: 0; background: #C2700F"></span>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 14px; color: #4A5560">Gifts and activity</span>
+              <span style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums">$82,923</span>
+              <span style="font-size: 13px; color: #5B6470">1% · Form 635 line C</span>
+            </div>
+          </div>
+        
+          <div style="display: flex; gap: 10px; align-items: flex-start">
+            <span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 3px; margin-top: 4px; flex-shrink: 0; background: #2E3A46"></span>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 14px; color: #4A5560">Other payments to influence</span>
+              <span style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums">$3.51M</span>
+              <span style="font-size: 13px; color: #5B6470">57% · Form 635 line D</span>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 14px">
+      <h2 style="margin: 0; font-size: 22px">Spending by quarter</h2>
+      <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; align-items: end; height: 200px; border-bottom: 1px solid #9AA4AE; padding: 0 4px">
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$816,960</span>
+            <div style="height: 91px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$1.35M</span>
+            <div style="height: 150px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$959,833</span>
+            <div style="height: 107px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$824,677</span>
+            <div style="height: 92px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$857,381</span>
+            <div style="height: 95px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$1.33M</span>
+            <div style="height: 148px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">Due Oct 31</span>
+            <div style="height: 40px; background: transparent; border: 2px dashed #9AA4AE; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; font-size: 13px; color: #4A5560; text-align: center">
+        <span>Q1 ’25</span><span>Q2 ’25</span><span>Q3 ’25</span><span>Q4 ’25</span><span>Q1 ’26</span><span>Q2 ’26</span><span>Q3 ’26</span>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 16px">
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <h2 style="margin: 0; font-size: 22px">Who lobbies for it</h2>
+        <p style="margin: 0; font-size: 14px; color: #4A5560">In-house lobbyists are its own employees, registered on Form 604. Firms are hired from outside.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px">
+
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 16px">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+            <h3 style="margin: 0; font-size: 18px">In-house lobbyists</h3>
+            <span style="font-size: 14px; color: #4A5560">$1.98M paid (line A)</span>
+          </div>
+          
+            <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px">
+              
+                <a href="#" style="display: flex; gap: 12px; align-items: center; text-decoration: none; color: #1B1F24">
+                  <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 50%; background: #D5E4E8; color: #0A4352; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0">SB</span>
+                  <span style="display: flex; flex-direction: column; gap: 2px">
+                    <span style="font-weight: 600; color: #0F5F73">Sandra Barreiro</span>
+                    <span style="font-size: 13px; color: #5B6470">Registered 2025–26</span>
+                  </span>
+                </a>
+              
+                <a href="#" style="display: flex; gap: 12px; align-items: center; text-decoration: none; color: #1B1F24">
+                  <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 50%; background: #D5E4E8; color: #0A4352; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0">JB</span>
+                  <span style="display: flex; flex-direction: column; gap: 2px">
+                    <span style="font-weight: 600; color: #0F5F73">Jessica Bartholow</span>
+                    <span style="font-size: 13px; color: #5B6470">Registered 2025–26</span>
+                  </span>
+                </a>
+              
+                <a href="#" style="display: flex; gap: 12px; align-items: center; text-decoration: none; color: #1B1F24">
+                  <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 50%; background: #D5E4E8; color: #0A4352; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0">TC</span>
+                  <span style="display: flex; flex-direction: column; gap: 2px">
+                    <span style="font-weight: 600; color: #0F5F73">Terrence C. Brennand</span>
+                    <span style="font-size: 13px; color: #5B6470">Registered 2025–26</span>
+                  </span>
+                </a>
+              
+                <a href="#" style="display: flex; gap: 12px; align-items: center; text-decoration: none; color: #1B1F24">
+                  <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 50%; background: #D5E4E8; color: #0A4352; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0">JE</span>
+                  <span style="display: flex; flex-direction: column; gap: 2px">
+                    <span style="font-weight: 600; color: #0F5F73">Jorge Edgar Guerra</span>
+                    <span style="font-size: 13px; color: #5B6470">Registered 2025–26</span>
+                  </span>
+                </a>
+              
+                <a href="#" style="display: flex; gap: 12px; align-items: center; text-decoration: none; color: #1B1F24">
+                  <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 50%; background: #D5E4E8; color: #0A4352; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0">ML</span>
+                  <span style="display: flex; flex-direction: column; gap: 2px">
+                    <span style="font-weight: 600; color: #0F5F73">Matt Lege</span>
+                    <span style="font-size: 13px; color: #5B6470">Registered 2025–26</span>
+                  </span>
+                </a>
+              
+                <a href="#" style="display: flex; gap: 12px; align-items: center; text-decoration: none; color: #1B1F24">
+                  <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 50%; background: #D5E4E8; color: #0A4352; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0">BM</span>
+                  <span style="display: flex; flex-direction: column; gap: 2px">
+                    <span style="font-weight: 600; color: #0F5F73">Beth Malinowski</span>
+                    <span style="font-size: 13px; color: #5B6470">Registered 2025–26</span>
+                  </span>
+                </a>
+              
+                <a href="#" style="display: flex; gap: 12px; align-items: center; text-decoration: none; color: #1B1F24">
+                  <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 50%; background: #D5E4E8; color: #0A4352; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0">KN</span>
+                  <span style="display: flex; flex-direction: column; gap: 2px">
+                    <span style="font-weight: 600; color: #0F5F73">Kimberly N. Rosenberger</span>
+                    <span style="font-size: 13px; color: #5B6470">Registered 2025–26</span>
+                  </span>
+                </a>
+              
+                <a href="#" style="display: flex; gap: 12px; align-items: center; text-decoration: none; color: #1B1F24">
+                  <span aria-hidden="true" style="width: 52px; height: 52px; border-radius: 50%; background: #D5E4E8; color: #0A4352; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; flex-shrink: 0">TJ</span>
+                  <span style="display: flex; flex-direction: column; gap: 2px">
+                    <span style="font-weight: 600; color: #0F5F73">Tiffany J. Whiten</span>
+                    <span style="font-size: 13px; color: #5B6470">Registered 2025–26</span>
+                  </span>
+                </a>
+              
+            </div>
+            <p style="margin: 0; font-size: 13px; color: #5B6470">Photo circles stand in for the official photos from the Secretary of State's lobbyist directory. Former in-house lobbyists, such as Rene Bayardo (2023–24), appear under &quot;Earlier sessions.&quot;</p>
+          
+          
+        </div>
+
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 16px">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+            <h3 style="margin: 0; font-size: 18px">Lobbying firms hired</h3>
+            <span style="font-size: 14px; color: #4A5560">$570,515 paid (line B)</span>
+          </div>
+          
+            <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 12px; border-top: 1px solid #EEF1F3">
+              <div style="display: flex; justify-content: space-between; gap: 12px">
+                <a href="#" style="font-weight: 600">Weideman Group</a>
+                <span style="font-variant-numeric: tabular-nums">$270,000</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #5B6470">
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span>Firm lobbyists and photos coming soon</span>
+              </div>
+            </div>
+          
+            <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 12px; border-top: 1px solid #EEF1F3">
+              <div style="display: flex; justify-content: space-between; gap: 12px">
+                <a href="#" style="font-weight: 600">Bayardo Strategies LLC</a>
+                <span style="font-variant-numeric: tabular-nums">$217,138</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #5B6470">
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span>Firm lobbyists and photos coming soon</span>
+              </div>
+            </div>
+          
+            <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 12px; border-top: 1px solid #EEF1F3">
+              <div style="display: flex; justify-content: space-between; gap: 12px">
+                <a href="#" style="font-weight: 600">Olson Remcho, LLP</a>
+                <span style="font-variant-numeric: tabular-nums">$43,377</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #5B6470">
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span>Firm lobbyists and photos coming soon</span>
+              </div>
+            </div>
+          
+            <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 12px; border-top: 1px solid #EEF1F3">
+              <div style="display: flex; justify-content: space-between; gap: 12px">
+                <a href="#" style="font-weight: 600">Harris &amp; Wenbourne LLC</a>
+                <span style="font-variant-numeric: tabular-nums">$40,000</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #5B6470">
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span>Firm lobbyists and photos coming soon</span>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <h2 style="margin: 0; font-size: 22px">Other payments to influence</h2>
+        <p style="margin: 0; font-size: 14px; color: #4A5560">Ads, polling, consultants and similar, itemized on Schedule 640. The category is the one the filer chose on the form.</p>
+      </div>
+      <div style="overflow-x: auto; border: 1px solid #D9DEE3; border-radius: 10px">
+        <table style="width: 100%; border-collapse: collapse; font-size: 15px; min-width: 560px">
+          <thead><tr style="background: #F4F6F8; text-align: left">
+            <th scope="col" style="padding: 10px 14px">Paid to</th>
+            <th scope="col" style="padding: 10px 14px">Category</th>
+            <th scope="col" style="padding: 10px 14px; text-align: right">This session</th>
+          </tr></thead>
+          <tbody>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Facebook/Meta</td>
+                <td style="padding: 10px 14px; color: #4A5560">Advertising; Public affairs, coalition building and grassroots</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$449,522</td>
+              </tr>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Angie Wei Consulting</td>
+                <td style="padding: 10px 14px; color: #4A5560">Consultants and government relations</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$270,000</td>
+              </tr>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Lunchbox Express</td>
+                <td style="padding: 10px 14px; color: #4A5560">Lobbying events</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$142,422</td>
+              </tr>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Michelle Castro Strategies</td>
+                <td style="padding: 10px 14px; color: #4A5560">Consultants and government relations</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$131,204</td>
+              </tr>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">AJE Partners</td>
+                <td style="padding: 10px 14px; color: #4A5560">Consultants and government relations</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$127,175</td>
+              </tr>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Paul Allison</td>
+                <td style="padding: 10px 14px; color: #4A5560">Salaries of staff who help with lobbying</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$81,709</td>
+              </tr>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Evolve Media</td>
+                <td style="padding: 10px 14px; color: #4A5560">Advertising</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$79,260</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <p style="margin: 0; font-size: 14px; background: #FFF1E3; color: #8A3F06; padding: 10px 14px; border-radius: 8px">Itemized lines add up to $2.54M of the $3.51M it reported on line D. The rest is not itemized in the state data.</p>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 12px">
+      <h2 style="margin: 0; font-size: 22px">Coalitions</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px">
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-weight: 600">Coalitions it paid into</span>
+          <span style="font-size: 14px; color: #4A5560">None reported this session.</span>
+          <span style="font-size: 13px; color: #5B6470">From its own reports (Schedule 630). Each coalition links to its own page.</span>
+        </div>
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-weight: 600">Coalitions that list it as a member</span>
+          <span style="font-size: 14px; color: #4A5560">None found this session.</span>
+          <span style="font-size: 13px; color: #5B6470">From the coalitions' reports (Schedule 635-C), matched by name.</span>
+        </div>
+      </div>
+    </section>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px">
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Bills named in its reports</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px">
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AJR 12</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">ACA 8</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SCR 89</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SB 729</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SB 63</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">ACA 3</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 25</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SJR 8</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SJR 2</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SB 7</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AJR 3</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 4</a>
+          
+        </div>
+        <p style="margin: 0; font-size: 13px; color: #5B6470">Most of its lobbying list is in an attachment (&quot;See attachment Part 1&quot;); these bills come from that text.</p>
+      </section>
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Gifts and meals for officials</h2>
+        <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">$82,923</span>
+        <p style="margin: 0; font-size: 14px; color: #4A5560">47 gifts and meals this session.</p>
+      </section>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px">
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Behested payments it made</h2>
+        
+          <div style="padding: 10px 0; border-top: 1px solid #EEF1F3; display: flex; flex-direction: column; gap: 4px">
+            <div style="display: flex; justify-content: space-between; gap: 12px">
+              <span>At the request of <a href="#">Scott Wiener</a></span><span style="font-variant-numeric: tabular-nums">$6,000</span>
+            </div>
+            <span style="font-size: 14px; color: #4A5560">To EQCA California C4 · May 19, 2026 · Payor listed as "SEIU California"</span>
+          </div>
+        
+          <div style="padding: 10px 0; border-top: 1px solid #EEF1F3; display: flex; flex-direction: column; gap: 4px">
+            <div style="display: flex; justify-content: space-between; gap: 12px">
+              <span>At the request of <a href="#">Alex Lee</a></span><span style="font-variant-numeric: tabular-nums">$10,000</span>
+            </div>
+            <span style="font-size: 14px; color: #4A5560">To Legislative Progressive Caucus Center · Dec 22, 2025 · Payor listed as "CA State Council of Service Employees Issue Advocacy"</span>
+          </div>
+        
+          <div style="padding: 10px 0; border-top: 1px solid #EEF1F3; display: flex; flex-direction: column; gap: 4px">
+            <div style="display: flex; justify-content: space-between; gap: 12px">
+              <span>At the request of <a href="#">Tina McKinnor</a></span><span style="font-variant-numeric: tabular-nums">$10,000</span>
+            </div>
+            <span style="font-size: 14px; color: #4A5560">To LA County Delegation Foundation · Feb 14, 2025 · Payor listed as "CA State Council of Service Employees"</span>
+          </div>
+        
+      </section>
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Campaign contributions</h2>
+        <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">None on lobbying reports</span>
+        <p style="margin: 0; font-size: 14px; color: #4A5560">Its political giving is filed by its PACs on campaign reports, which will come from Contributor Track.</p>
+      </section>
+    </div>
+
+    
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Other employers in the SEIU donor group</h2>
+        <div style="overflow-x: auto; border: 1px solid #D9DEE3; border-radius: 10px">
+          <table style="width: 100%; border-collapse: collapse; font-size: 15px; min-width: 560px">
+            <thead><tr style="background: #F4F6F8; text-align: left">
+              <th scope="col" style="padding: 10px 14px">Employer</th>
+              <th scope="col" style="padding: 10px 14px">In-house lobbyists</th>
+              <th scope="col" style="padding: 10px 14px; text-align: right">Spent this session</th>
+            </tr></thead>
+            <tbody>
+              
+                <tr style="border-top: 1px solid #EEF1F3">
+                  <td style="padding: 10px 14px"><a href="#">SEIU Local 1000</a></td>
+                  <td style="padding: 10px 14px; color: #4A5560">Omega Brewer-Gonzalez, Analisa Quintero, Daniel Schoorl</td>
+                  <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$449,498</td>
+                </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+    
+
+    <p style="margin: 0; font-size: 13px; color: #5B6470; border-top: 1px solid #D9DEE3; padding-top: 16px">Sources: Form 635 quarterly reports and Form 604 registrations (Secretary of State, CAL-ACCESS), Form 803 behested payments (FPPC). Quarters Q1 2025 to Q2 2026. Shown side by side from official filings; being listed together does not mean one caused another. Preview: some details are still being added.</p>
+  </main>
+</div>
+</div>
+<div data-page="uber" hidden>
+
+<div style="font-family: 'Public Sans', system-ui, sans-serif; color: #1B1F24; background: #FFFFFF; min-height: 100vh">
+
+  <header style="border-bottom: 1px solid #D9DEE3">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 24px">
+      <a href="#" style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 24px; color: #1B1F24; text-decoration: none">Lobby Track</a>
+      <nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 15px; font-weight: 500; flex-grow: 1">
+        <a href="#" style="text-decoration: none; color: #1B1F24; border-bottom: 2px solid #0F5F73">Employers</a>
+        <a href="#" style="text-decoration: none">Lobbying firms</a>
+        <a href="#" style="text-decoration: none">Lobbyists</a>
+        <a href="#" style="text-decoration: none">Legislators</a>
+        <a href="#" style="text-decoration: none">Bills</a>
+        <a href="#" style="text-decoration: none">Behested payments</a>
+      </nav>
+      <a href="#" style="border: 1px solid #C4CBD2; border-radius: 6px; padding: 10px 14px; text-decoration: none; color: #1B1F24; font-size: 14px">Account</a>
+    </div>
+  </header>
+
+  
+
+  <main style="max-width: 1200px; margin: 0 auto; padding: 32px 24px 64px; display: flex; flex-direction: column; gap: 40px">
+
+    <section style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px">
+      <div style="display: flex; flex-direction: column; gap: 8px">
+        <a href="#" style="font-size: 14px">← Employers</a>
+        <h1 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 38px">Uber Technologies, Inc.</h1>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px">
+          <span style="background: #E6F0F2; color: #0A4352; padding: 4px 10px; border-radius: 999px">Technology and transportation</span>
+          <span style="background: #F4F6F8; color: #333B44; padding: 4px 10px; border-radius: 999px">Your donor group: not yet assigned</span>
+          <span style="background: #F4F6F8; color: #333B44; padding: 4px 10px; border-radius: 999px">SOS filer ID 1354296</span>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <label for="session2" style="font-size: 14px; color: #4A5560">Session</label>
+        <select id="session2" style="font: inherit; padding: 10px 12px; border: 1px solid #9AA4AE; border-radius: 6px">
+          <option>2025–26</option>
+          <option>2023–24</option>
+        </select>
+        <button type="button" style="font: inherit; font-weight: 600; padding: 10px 16px; border: 1px solid #0F5F73; border-radius: 6px; background: #FFFFFF; color: #0F5F73; cursor: pointer">Download CSV</button>
+      </div>
+    </section>
+
+    <section aria-label="Totals" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+      
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 14px; color: #4A5560">Spent on lobbying</span>
+          <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">$2.25M</span>
+          <span style="font-size: 13px; color: #5B6470">2025–26 session, 6 quarters filed</span>
+        </div>
+      
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 14px; color: #4A5560">In-house lobbyists</span>
+          <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">0</span>
+          <span style="font-size: 13px; color: #5B6470">Works through outside firms</span>
+        </div>
+      
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 14px; color: #4A5560">Firms hired</span>
+          <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">2</span>
+          <span style="font-size: 13px; color: #5B6470">$640,000 paid to firms</span>
+        </div>
+      
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 14px; color: #4A5560">Behested payments</span>
+          <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">$530,000</span>
+          <span style="font-size: 13px; color: #5B6470">3 payments, 2 officials</span>
+        </div>
+      
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 14px">
+      <h2 style="margin: 0; font-size: 22px">Where the money went</h2>
+      <div role="img" aria-label="In-house lobbyists $22,224, Lobbying firms $640,000, Gifts and activity $0, Other payments to influence $1.59M" style="display: flex; height: 28px; border-radius: 6px; overflow: hidden; background: #EEF1F3">
+        
+          <div style="width: 0.99%; background: #0F5F73"></div>
+        
+          <div style="width: 28.40%; background: #7FB3C2"></div>
+        
+          <div style="width: 0.00%; background: #C2700F"></div>
+        
+          <div style="width: 70.62%; background: #2E3A46"></div>
+        
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px">
+        
+          <div style="display: flex; gap: 10px; align-items: flex-start">
+            <span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 3px; margin-top: 4px; flex-shrink: 0; background: #0F5F73"></span>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 14px; color: #4A5560">In-house lobbyists</span>
+              <span style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums">$22,224</span>
+              <span style="font-size: 13px; color: #5B6470">1% · Form 635 line A</span>
+            </div>
+          </div>
+        
+          <div style="display: flex; gap: 10px; align-items: flex-start">
+            <span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 3px; margin-top: 4px; flex-shrink: 0; background: #7FB3C2"></span>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 14px; color: #4A5560">Lobbying firms</span>
+              <span style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums">$640,000</span>
+              <span style="font-size: 13px; color: #5B6470">28% · Form 635 line B</span>
+            </div>
+          </div>
+        
+          <div style="display: flex; gap: 10px; align-items: flex-start">
+            <span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 3px; margin-top: 4px; flex-shrink: 0; background: #C2700F"></span>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 14px; color: #4A5560">Gifts and activity</span>
+              <span style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums">$0</span>
+              <span style="font-size: 13px; color: #5B6470">0% · Form 635 line C</span>
+            </div>
+          </div>
+        
+          <div style="display: flex; gap: 10px; align-items: flex-start">
+            <span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 3px; margin-top: 4px; flex-shrink: 0; background: #2E3A46"></span>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 14px; color: #4A5560">Other payments to influence</span>
+              <span style="font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums">$1.59M</span>
+              <span style="font-size: 13px; color: #5B6470">71% · Form 635 line D</span>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 14px">
+      <h2 style="margin: 0; font-size: 22px">Spending by quarter</h2>
+      <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; align-items: end; height: 200px; border-bottom: 1px solid #9AA4AE; padding: 0 4px">
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$1.04M</span>
+            <div style="height: 150px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$142,760</span>
+            <div style="height: 21px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$440,846</span>
+            <div style="height: 64px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$140,000</span>
+            <div style="height: 20px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$350,172</span>
+            <div style="height: 51px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">$144,280</span>
+            <div style="height: 21px; background: #0F5F73; border: 0; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+          <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; gap: 6px; height: 100%">
+            <span style="font-size: 12px; color: #333B44; text-align: center; font-variant-numeric: tabular-nums">Due Oct 31</span>
+            <div style="height: 40px; background: transparent; border: 2px dashed #9AA4AE; border-radius: 4px 4px 0 0; box-sizing: border-box"></div>
+          </div>
+        
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px; font-size: 13px; color: #4A5560; text-align: center">
+        <span>Q1 ’25</span><span>Q2 ’25</span><span>Q3 ’25</span><span>Q4 ’25</span><span>Q1 ’26</span><span>Q2 ’26</span><span>Q3 ’26</span>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 16px">
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <h2 style="margin: 0; font-size: 22px">Who lobbies for it</h2>
+        <p style="margin: 0; font-size: 14px; color: #4A5560">In-house lobbyists are its own employees, registered on Form 604. Firms are hired from outside.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px">
+
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 16px">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+            <h3 style="margin: 0; font-size: 18px">In-house lobbyists</h3>
+            <span style="font-size: 14px; color: #4A5560">$22,224 paid (line A)</span>
+          </div>
+          
+          
+            <div style="background: #F4F6F8; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 6px">
+              <span style="font-weight: 600">No registered in-house lobbyists this session</span>
+              <span style="font-size: 14px; color: #4A5560">Uber registers only to authorize outside firms (Form 602), and no lobbyist has filed a Form 604 naming Uber. Yet its reports show $22,224 on line A, &quot;payments to in-house employee lobbyists.&quot;</span>
+            </div>
+          
+        </div>
+
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 16px">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+            <h3 style="margin: 0; font-size: 18px">Lobbying firms hired</h3>
+            <span style="font-size: 14px; color: #4A5560">$640,000 paid (line B)</span>
+          </div>
+          
+            <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 12px; border-top: 1px solid #EEF1F3">
+              <div style="display: flex; justify-content: space-between; gap: 12px">
+                <a href="#" style="font-weight: 600">Heyworth Government Affairs</a>
+                <span style="font-variant-numeric: tabular-nums">$340,000</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #5B6470">
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span>Firm lobbyists and photos coming soon</span>
+              </div>
+            </div>
+          
+            <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 12px; border-top: 1px solid #EEF1F3">
+              <div style="display: flex; justify-content: space-between; gap: 12px">
+                <a href="#" style="font-weight: 600">Summit Advocacy</a>
+                <span style="font-variant-numeric: tabular-nums">$300,000</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #5B6470">
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: #E3E7EB"></span>
+                <span>Firm lobbyists and photos coming soon</span>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <h2 style="margin: 0; font-size: 22px">Other payments to influence</h2>
+        <p style="margin: 0; font-size: 14px; color: #4A5560">Ads, polling, consultants and similar, itemized on Schedule 640. The category is the one the filer chose on the form.</p>
+      </div>
+      <div style="overflow-x: auto; border: 1px solid #D9DEE3; border-radius: 10px">
+        <table style="width: 100%; border-collapse: collapse; font-size: 15px; min-width: 560px">
+          <thead><tr style="background: #F4F6F8; text-align: left">
+            <th scope="col" style="padding: 10px 14px">Paid to</th>
+            <th scope="col" style="padding: 10px 14px">Category</th>
+            <th scope="col" style="padding: 10px 14px; text-align: right">This session</th>
+          </tr></thead>
+          <tbody>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Orlattle LLC</td>
+                <td style="padding: 10px 14px; color: #4A5560">Advertising; Public affairs, coalition building and grassroots</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$285,246</td>
+              </tr>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Wingspan</td>
+                <td style="padding: 10px 14px; color: #4A5560">Advertising; Public affairs, coalition building and grassroots</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$228,588</td>
+              </tr>
+            
+              <tr style="border-top: 1px solid #EEF1F3">
+                <td style="padding: 10px 14px">Politico LLC</td>
+                <td style="padding: 10px 14px; color: #4A5560">Public affairs, coalition building and grassroots</td>
+                <td style="padding: 10px 14px; text-align: right; font-variant-numeric: tabular-nums">$102,000</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <p style="margin: 0; font-size: 14px; background: #FFF1E3; color: #8A3F06; padding: 10px 14px; border-radius: 8px">Itemized lines add up to $615,834 of the $1.59M it reported on line D. Its first 2025 report lists $975,647 with no itemized lines.</p>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 12px">
+      <h2 style="margin: 0; font-size: 22px">Coalitions</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px">
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-weight: 600">Coalitions it paid into</span>
+          <span style="font-size: 14px; color: #4A5560">None reported this session.</span>
+          <span style="font-size: 13px; color: #5B6470">From its own reports (Schedule 630). Each coalition links to its own page.</span>
+        </div>
+        <div style="border: 1px solid #D9DEE3; border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-weight: 600">Coalitions that list it as a member</span>
+          <span style="font-size: 14px; color: #4A5560">None found this session.</span>
+          <span style="font-size: 13px; color: #5B6470">From the coalitions' reports (Schedule 635-C), matched by name.</span>
+        </div>
+      </div>
+    </section>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px">
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Bills named in its reports</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px">
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SB 371</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 578</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 342</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SB 947</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SB 7</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">SB 259</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 33</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 2564</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 1776</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 1609</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 1340</a>
+          
+            <a href="#" style="border: 1px solid #C4CBD2; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; text-decoration: none">AB 1018</a>
+          
+        </div>
+        <p style="margin: 0; font-size: 13px; color: #5B6470">17 bills named in all, plus the CPUC. Taken from what Uber and its firms wrote they lobbied on.</p>
+      </section>
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Gifts and meals for officials</h2>
+        <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">$0</span>
+        <p style="margin: 0; font-size: 14px; color: #4A5560">No gifts or meals reported this session.</p>
+      </section>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 24px">
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Behested payments it made</h2>
+        
+          <div style="padding: 10px 0; border-top: 1px solid #EEF1F3; display: flex; flex-direction: column; gap: 4px">
+            <div style="display: flex; justify-content: space-between; gap: 12px">
+              <span>At the request of <a href="#">Matt Haney</a></span><span style="font-variant-numeric: tabular-nums">$10,000</span>
+            </div>
+            <span style="font-size: 14px; color: #4A5560">To Center for New Music San Francisco · Dec 29, 2025 · Payor listed as "Uber Technologies, Inc."</span>
+          </div>
+        
+          <div style="padding: 10px 0; border-top: 1px solid #EEF1F3; display: flex; flex-direction: column; gap: 4px">
+            <div style="display: flex; justify-content: space-between; gap: 12px">
+              <span>At the request of <a href="#">Gavin Newsom</a></span><span style="font-variant-numeric: tabular-nums">$500,000</span>
+            </div>
+            <span style="font-size: 14px; color: #4A5560">To California Fire Foundation · Jan 17, 2025 · Payor listed as "Uber Eats"</span>
+          </div>
+        
+          <div style="padding: 10px 0; border-top: 1px solid #EEF1F3; display: flex; flex-direction: column; gap: 4px">
+            <div style="display: flex; justify-content: space-between; gap: 12px">
+              <span>At the request of <a href="#">Gavin Newsom</a></span><span style="font-variant-numeric: tabular-nums">$20,000</span>
+            </div>
+            <span style="font-size: 14px; color: #4A5560">To California Fire Foundation · Jan 11, 2025 · Payor listed as "Uber"</span>
+          </div>
+        
+      </section>
+      <section style="display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 22px">Campaign contributions</h2>
+        <span style="font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums">$20.89M</span>
+        <p style="margin: 0; font-size: 14px; color: #4A5560">6 contributions reported on its lobbying reports this session.</p>
+      </section>
+    </div>
+
+    
+
+    <p style="margin: 0; font-size: 13px; color: #5B6470; border-top: 1px solid #D9DEE3; padding-top: 16px">Sources: Form 635 quarterly reports and Form 604 registrations (Secretary of State, CAL-ACCESS), Form 803 behested payments (FPPC). Quarters Q1 2025 to Q2 2026. Shown side by side from official filings; being listed together does not mean one caused another. Preview: some details are still being added.</p>
+  </main>
+</div>
+</div>
+<script>
+document.querySelectorAll('[data-show]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    document.querySelectorAll('[data-show]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    document.querySelectorAll('[data-page]').forEach(function (p) { p.hidden = p.getAttribute('data-page') !== b.getAttribute('data-show'); });
+  });
+});
+</script>
+</body></html>
